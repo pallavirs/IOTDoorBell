@@ -134,7 +134,7 @@ if simi_list==[]:
     url = '{}/{}/{}'.format(client_1.meta.endpoint_url,'bucketwce002',src_image)
     print(url)
     client.publish(
-        PhoneNumber="+918459445789",
+        PhoneNumber="+91XXXXXXXXX",
         Message="Hi someone is at your door :"+url,
         )
     
@@ -147,7 +147,7 @@ if not eg:
     url = '{}/{}/{}'.format(client.meta.endpoint_url,'bucketwce002',src_image)
     print(url)
     client.publish(
-        PhoneNumber="+918888149815",
+        PhoneNumber="+91XXXXXXXXXX",
         Message="Hi someone is at your door"+"url",
         )  
     '''
@@ -159,14 +159,14 @@ if simi_list:
     if simi_val:
         os.system("sudo omxplayer -o local welcome.mp3")
         client.publish(
-            PhoneNumber="+918459445789",
+            PhoneNumber="+91XXXXXXXXXX",
             Message="Hi"+" "+u_name+" is at your door",
             )
     else:
         url = '{}/{}/{}'.format(client_1.meta.endpoint_url,'bucketwce002',src_image)
         print(url)
         client.publish(
-            PhoneNumber="+918459445789",
+            PhoneNumber="+91XXXXXXXXXX",
             Message="Hi someone is at your door"+"url",
             )  
 
